@@ -1,0 +1,19 @@
+{
+    "name": "ESP32-PTQS1005",
+    "version": "1.0.0",
+    "description": "PTQS1005 Sensor Data Acquisition Library for ESP32 and Arduino",
+    "authors": [
+        {
+            "name": "t-oot",
+            "url": "https://github.com/t-oot"
+        }
+    ],
+    "homepage": "https://github.com/t-oot/ESP32-PTQS1005",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/t-oot/ESP32-PTQS1005.git"
+    },
+    "platforms": "avr,stm32,esp8266,esp32"
+
+}
