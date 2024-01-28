@@ -6,7 +6,7 @@
 #ifdef ESP32
 #define LOG(...) esp_log_write(ESP_LOG_ERROR, "PTQS1005", __VA_ARGS__)
 #elif defined(Arduino_h)
-#define LOG(...) Serial.printf(__VA_ARGS__)
+#define LOG(...) Serial.print(__VA_ARGS__)
 #else
 #define LOG(...) \
   {              \
